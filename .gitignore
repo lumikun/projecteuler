@@ -1,2 +1,27 @@
 
 *.out
+builddir/.ninja_deps
+builddir/.ninja_log
+builddir/build.ninja
+builddir/compile_commands.json
+builddir/euler
+builddir/euler@exe/main.c.o
+builddir/meson-info/intro-benchmarks.json
+builddir/meson-info/intro-buildoptions.json
+builddir/meson-info/intro-buildsystem_files.json
+builddir/meson-info/intro-dependencies.json
+builddir/meson-info/intro-installed.json
+builddir/meson-info/intro-projectinfo.json
+builddir/meson-info/intro-targets.json
+builddir/meson-info/intro-tests.json
+builddir/meson-info/meson-info.json
+builddir/meson-logs/meson-log.txt
+builddir/meson-private/build.dat
+builddir/meson-private/cmd_line.txt
+builddir/meson-private/coredata.dat
+builddir/meson-private/install.dat
+builddir/meson-private/meson.lock
+builddir/meson-private/meson_benchmark_setup.dat
+builddir/meson-private/meson_test_setup.dat
+builddir/meson-private/sanitycheckc.c
+builddir/meson-private/sanitycheckc.exe
