@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
+
 
 char number_array[] =   "73167176531330624919225119674426574742355349194934"
                         "96983520312774506326239578318016984801869478851843"
@@ -31,20 +33,18 @@ int main()
     printf("answer: %llu\n", product_array(number_array));
     clock_t end = clock();
     double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
-    printf("This solution took %f seconds.", time_spent);
+    printf("This solution took %f seconds.\n", time_spent);
     return 0;
 }
 
-
-// TODO Fix the Buss error!
 unsigned long long product_array(char *array)
 {
-    size_t len = sizeof(&array);
+    size_t len = strlen(array);
     unsigned long long ret = 0;
     for (size_t i = 0; i <= len - 13; i++) {
         unsigned long long product = 1;
         for (size_t j = 0; j < 13; j++) {
-            product = product * (array[i + j] - 0x30); // the issue seams to be caused by the access to *array
+            product = product * (array[i + j] - 0x30);
             if (product == 0)
                 break;
         }
