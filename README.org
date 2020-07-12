@@ -1,4 +1,8 @@
 #+TITLE: Project Euler solutions in C
 
-* Project Euler solutions in *c_std=c11'*
-** TODO Refactor everything to one file, use *meson.build*
+* Project Euler
+Solutions written in /c_std=c11/
+
+* LIST OF TODO STUFF
+** TODO Refactor for use with meson.build. Single Executable
+** TODO Keep solving problems :^)
