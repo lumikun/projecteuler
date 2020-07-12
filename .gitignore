@@ -4,3 +4,4 @@ builddir/
 builddir/*
 *.plist
 *.o
+*.swp
