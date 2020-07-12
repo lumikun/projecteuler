@@ -1,4 +1,6 @@
 
 *.out
 builddir/
+builddir/*
 *.plist
+*.o
