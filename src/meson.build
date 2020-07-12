@@ -1,5 +1,7 @@
 common_filenames = [
-                 'main.c'
+                 'main.c',
+                 'problems.c',
+                 'primes.c'
 ]
 
 common_sources = files(common_filenames)

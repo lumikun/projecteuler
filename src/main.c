@@ -3,6 +3,6 @@
 
 int main()
 {
-  printf("%s for now\n", stub);
+  print_problems();
   return 0;
 }

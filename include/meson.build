@@ -1,6 +1,6 @@
 header_filenames = [
-                 'problems.h'
-]
+                 'problems.h',
+                 'primes.h']
 
 
 fw_headers = files(header_filenames)
