@@ -1,5 +1,6 @@
 #include "numman.h"
 #include "sums.h"
+#include <string.h>
 
 int reverse(int n)
 {
@@ -39,4 +40,26 @@ unsigned long even_divisible(short n)
 long difference(long a, long b)
 {
     return (sum_squared(a, b) - sum_of_squares(a, b));
+}
+
+unsigned long long product_array(char *array)
+{
+    size_t len = strlen(array);
+    unsigned long long ret = 0;
+    for (size_t i = 0; i <= len - 13; i++) {
+        unsigned long long product = 1;
+        for (size_t j = 0; j < 13; j++) {
+            product *= (array[i + j] - 0x30);
+            if (product == 0)
+                break;
+        }
+        if (product > ret)
+            ret = product;
+    }
+    return ret;
+}
+
+int check_pithagorus(int a, int b, int c)
+{
+    return pow(a, 2) + pow(b, 2) == pow(c, 2);
 }
