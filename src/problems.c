@@ -5,6 +5,7 @@
 
 void print_problems(void)
 {
+    printf("\n\n PROJECT EULER SOLUTIONS TIMED \n\n\n\n");
     problem_1();
     problem_2();
     problem_3();
