@@ -1,6 +1,7 @@
 #include "numman.h"
 #include "sums.h"
 #include <string.h>
+#include <math.h>
 
 int reverse(int n)
 {
