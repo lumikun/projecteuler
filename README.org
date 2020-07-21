@@ -1,7 +1,9 @@
 #+TITLE: Project Euler solutions in C
-
-* Project Euler
 Solutions written in /c_std=c11/
+
+Currently problems 1 through 10 have been implemented, there's still
+some cleaning up I can do, but for now it's okay.
+
 
 * LIST OF TODO STUFF
 ** TODO Refactor for use with meson.build. Single Executable
