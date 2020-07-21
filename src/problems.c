@@ -65,6 +65,7 @@ void problem_16(void)
 void problem_15(void)
 {
     clock_t begin = clock();
+    printf("problem 15 ans: %ld\n", lattice_paths(20));
     clock_t end = clock();
     print_time(begin, end);
 }
@@ -83,9 +84,17 @@ void problem_13(void)
     print_time(begin, end);
 }
 
+// TODO really slow, maybe I could speed this up, also seams to give out the wrong answer.
 void problem_12(void)
 {
     clock_t begin = clock();
+    int i = 1;
+    int triangle = 1;
+    while (factor_count(triangle) < 1001) {
+        i++;
+        triangle += i;
+    }
+    printf("problem 12 ans: %d\n", i);
     clock_t end = clock();
     print_time(begin, end);
 }

@@ -9,6 +9,8 @@ unsigned long even_divisible(short n);
 long difference(long a, long b);
 unsigned long long product_array(char *array);
 int check_pithagorus(int a, int b, int c);
+int factor_count(int n);
+long lattice_paths(int n);
 
 
 #endif // __NUMMAN_H_

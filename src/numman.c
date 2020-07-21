@@ -64,3 +64,24 @@ int check_pithagorus(int a, int b, int c)
 {
     return pow(a, 2) + pow(b, 2) == pow(c, 2);
 }
+
+int factor_count(int n)
+{
+    double square = sqrt(n);
+    int isquare = (int)square;
+    int count = (double)isquare == square ? -1 : 0;
+    for (int i = 1; i <= isquare; i++)
+        if (0 == n % i)
+            count += 2;
+    return count;
+}
+
+long lattice_paths(int n)
+{
+    long p = 1;
+    for (int i = 0; i < n; i++) {
+        p *= (2 * n) - i;
+        p /= i + 1;
+    }
+    return p;
+}
