@@ -15,6 +15,16 @@ void problem_7(void);
 void problem_8(void);
 void problem_9(void);
 void problem_10(void);
+void problem_11(void);
+void problem_12(void);
+void problem_13(void);
+void problem_14(void);
+void problem_15(void);
+void problem_16(void);
+void problem_17(void);
+void problem_18(void);
+void problem_19(void);
+void problem_20(void);
 void print_problems(void);
 void print_time(clock_t begin, clock_t end);
 

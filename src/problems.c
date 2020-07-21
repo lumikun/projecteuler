@@ -16,6 +16,85 @@ void print_problems(void)
     problem_8();
     problem_9();
     problem_10();
+    problem_12();
+    problem_13();
+    problem_14();
+    problem_15();
+    problem_16();
+    problem_17();
+    problem_18();
+    problem_19();
+    problem_20();
+}
+// STUBS for the next 10 probems
+void problem_20(void)
+{
+    clock_t begin = clock();
+    clock_t end = clock();
+    print_time(begin, end);
+}
+
+void problem_19(void)
+{
+    clock_t begin = clock();
+    clock_t end = clock();
+    print_time(begin, end);
+}
+
+void problem_18(void)
+{
+    clock_t begin = clock();
+    clock_t end = clock();
+    print_time(begin, end);
+}
+
+void problem_17(void)
+{
+    clock_t begin = clock();
+    clock_t end = clock();
+    print_time(begin, end);
+}
+
+void problem_16(void)
+{
+    clock_t begin = clock();
+    clock_t end = clock();
+    print_time(begin, end);
+}
+
+void problem_15(void)
+{
+    clock_t begin = clock();
+    clock_t end = clock();
+    print_time(begin, end);
+}
+
+void problem_14(void)
+{
+    clock_t begin = clock();
+    clock_t end = clock();
+    print_time(begin, end);
+}
+
+void problem_13(void)
+{
+    clock_t begin = clock();
+    clock_t end = clock();
+    print_time(begin, end);
+}
+
+void problem_12(void)
+{
+    clock_t begin = clock();
+    clock_t end = clock();
+    print_time(begin, end);
+}
+
+void problem_11(void)
+{
+    clock_t begin = clock();
+    clock_t end = clock();
+    print_time(begin, end);
 }
 
 void problem_10(void)
